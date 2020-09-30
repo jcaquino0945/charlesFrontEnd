@@ -1,20 +1,25 @@
 .nav {
+  font-family: 'Cormorant Garamond', serif;
   height: 10vh;  
   display: flex;
   width: 100%;
   margin: 0;
   padding: 0;
+  color: rgb(224, 166, 5);
+  background: rgb(42,42,42);
+background: radial-gradient(circle, rgba(42,42,42,1) 0%, rgba(31,31,31,1) 49%, rgba(24,24,24,1) 100%);
 }
 .nav-logo-section {
 height: 100%;
-width: 30%;
+width: 20%;
 display: flex;
-justify-content: center;
+justify-content: flex-start;
 align-items: center;
+padding-left: 2em;
 }
 .nav-links-section {
 height: 100%;
-width: 70%;
+width: 80%;
 display: flex;
 justify-content:flex-end;
 align-items:center ;
@@ -23,8 +28,16 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-size: 1em;
 }
 li {
     display: inline;
+    padding-right: 2em;
 }
-
+a {
+  text-decoration: none;
+  color: rgb(224, 166, 5);
+}
+.active {
+  color: rgb(161, 119, 3);
+}
