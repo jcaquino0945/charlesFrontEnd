@@ -10,6 +10,7 @@ import { SeriesComponent } from './series/series.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { EventsComponent } from './events/events.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     SeriesComponent,
     ContactUsComponent,
     EventsComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

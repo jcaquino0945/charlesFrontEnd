@@ -1,0 +1,30 @@
+.nav {
+  height: 10vh;  
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.nav-logo-section {
+height: 100%;
+width: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.nav-links-section {
+height: 100%;
+width: 70%;
+display: flex;
+justify-content:flex-end;
+align-items:center ;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline;
+}
+
