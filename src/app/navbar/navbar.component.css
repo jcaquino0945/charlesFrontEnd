@@ -1,3 +1,4 @@
+/*
 .nav {
   font-family: 'Cormorant Garamond', serif;
   height: 10vh;  
@@ -38,6 +39,128 @@ a {
   text-decoration: none;
   color: rgb(224, 166, 5);
 }
+.
+*/
 .active {
-  color: rgb(161, 119, 3);
+  font-size: 19px;
+  color:  rgb(138, 102, 3);
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+li {
+  display: inline;
+  padding-right: 2em;
+}
+a {
+text-decoration: none;
+color: rgb(224, 166, 5);
+transition: .3s all;
+}
+a:hover {
+  color: rgb(156, 116, 4);
+  font-size: 19px;
+}
+.nav {
+  border: none;
+  font-family: 'Cormorant Garamond', serif;
+  height: 70px;
+  width: 100%;
+  color: rgb(224, 166, 5);
+  background: rgb(42,42,42);
+  background: radial-gradient(circle, rgba(42,42,42,1) 0%, rgba(31,31,31,1) 49%, rgba(24,24,24,1) 100%);
+  position: fixed;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 25px;
+  height: 100%;
+  color: rgb(224, 166, 5);
+  padding: 20px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  height: 100%;
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > ul {
+  display: inline-block;
+  padding: 23px 15px 23px 15px;
+  text-decoration: none;
+  color: rgb(224, 166, 5);
+  transition: .3s all;
+}
+
+
+
+.nav > #nav-check {
+  display: none;
+}
+.nav > .nav-links > a:hover {
+  font-size: 19px;
+  color:  rgb(138, 102, 3);
+}
+
+@media (max-width:768px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 70px;
+    padding: 24px;
+    margin-right: 20px;
+  }
+ 
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    color: rgb(224, 166, 5);
+    border-top: 2px solid rgb(224, 166, 5);
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background: rgb(42,42,42);
+    background: radial-gradient(circle, rgba(42,42,42,1) 0%, rgba(31,31,31,1) 49%, rgba(24,24,24,1) 100%);
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 70px;
+    left: 0px;
+  }
+  .nav > .nav-links > ul > li > a {
+    font-size: 1.1em;
+    margin: .5em 0em;
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
 }
