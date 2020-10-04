@@ -4,3 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background: rgb(52,52,52);
+background: radial-gradient(circle, rgba(52,52,52,1) 0%, rgba(38,38,38,1) 49%, rgba(23,23,23,1) 100%);
+}
