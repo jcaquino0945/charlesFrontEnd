@@ -7,6 +7,7 @@ import {EventsComponent} from './events/events.component';
 import {SeriesComponent} from './series/series.component';
 import {TheTeamComponent} from './the-team/the-team.component';
 import {PagenotfoundComponent} from './pagenotfound/pagenotfound.component';
+
 const routes: Routes = [
   {path:'homeComponent',component:HomeComponent},
   {path:'aboutUsComponent',component:AboutUsComponent},

@@ -5,6 +5,7 @@ width: 100%;
 .charlesBridge {
     background-image: url("../../assets/images/march-boston-skyline.jpg");
     background-size: cover;
+    border-radius: 0;
 }
 .charlesWhite {
     color: white;
