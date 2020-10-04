@@ -1,4 +1,23 @@
 :host {
     background-color:rgba(0,0,0,.2);
     display: block;
+    font-family: trebuchet ms, sans-serif;
+    letter-spacing: .75px;
+}
+
+.navbar {
+    margin: 50px 150px 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 0 0 25px;    
+}
+
+.nav-link {
+    color: #fff!important;
+}
+
+.active {
+    color: #ffba00!important;
 }
