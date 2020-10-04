@@ -1,0 +1,52 @@
+:host {
+    color: #fff!important;
+    font-family: trebuchet ms, sans-serif;
+    letter-spacing: .75px;
+}
+
+.container-fluid {
+    background: radial-gradient(circle, rgba(42,42,42,1) 0%, rgba(31,31,31,1) 49%, rgba(24,24,24,1) 100%);
+    padding: 150px 150px 50px;
+}
+
+.title {
+    color: #ffba00!important;
+    font-family: playfair-display, sans-serif;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.row {
+    padding: 0 0 50px;
+}
+
+.col {
+    margin: 0;
+}
+
+.card {
+    border: 0;
+    border-radius: 0;
+    width: 250px;
+    height: 250px;
+}
+
+.card-body {
+    background-color: #655b50!important;
+    font-size: 12px;
+    width: 250px;
+}
+
+.side {
+    width: 250px;
+    float: right;
+}
